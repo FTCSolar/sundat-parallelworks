@@ -12,5 +12,8 @@ Replace test.json with a SunDAT JSON script file
 To run:
 python runCloud.py
 
+Parallel Works API Documentation can be found here:
+https://go.parallel.works/docs/api.html
+
 For more information about SunDAT, please visit:
 https://sundat.ftcsolar.com
