@@ -1,0 +1,134 @@
+{
+  "Tracker": [
+    {
+      "name": "tr-jinko-2x30",
+      "module_name": "Jinko Solar JKM360M-72-V-4BB",
+      "string_size": 30,
+      "rows": 1,
+      "columns": 60,
+      "orientation": "portrait",
+      "height": 48.0,
+      "module_gap": 1.0,
+      "driveline_gap": [
+        30,
+        50.0
+      ],
+      "bearingcap_gap": [
+        [
+          8
+        ],
+        12.0
+      ]
+    }
+  ],
+  "Fixedtilt_ground": [
+    {
+      "name": "ft-jinko-2x30-15",
+      "module_name": "Jinko Solar JKM360M-72-V-4BB",
+      "string_size": 30,
+      "rows": 2,
+      "columns": 30,
+      "orientation": "portrait",
+      "angle": 15.0,
+      "height": 36.0,
+      "module_gap": 1.0,
+      "system_type": "groundmount"
+    }
+  ],
+  "Pvlayout": [
+    {
+      "region_name": "",
+      "component_names": [
+        "tr-jinko-2x30"
+      ],
+      "azimuth": 180.0,
+      "skew_angle": 0.0,
+      "mode": "uniform",
+      "ns_gap": 120.0,
+      "ew_gap": 0.0,
+      "start_point_method": "origin",
+      "run": "quick",
+      "additional_ns_gap": [
+        "rows",
+        4,
+        600.0
+      ],
+      "additional_ew_gap": [
+        "distance",
+        12000,
+        600.0
+      ],
+      "inverter_name": "SMA_SC_2500-EV-US",
+      "max_system_size": "",
+      "max_system_size_type": "kwdc",
+      "max_size_by_region": true,
+      "target_dcac_ratio": "",
+      "analyze_topo": false,
+      "placement_order": "x_first",
+      "avoid_slope_areas": false,
+      "spacing_by_max_size": false,
+      "parametric_inputs": {
+        "ew_gap": {
+          "min": 30.0,
+          "max": 50.0,
+          "step": 10,
+          "spacingType": "gcr",
+          "type": "range"
+        },
+        "azimuth": {
+          "min": 170,
+          "max": 190,
+          "step": 10,
+          "type": "range"
+        }
+      }
+    },
+    {
+      "region_name": "",
+      "component_names": [
+        "ft-jinko-2x30-15"
+      ],
+      "azimuth": 180.0,
+      "skew_angle": 0.0,
+      "mode": "uniform",
+      "ns_gap": 120.0,
+      "ew_gap": 6.0,
+      "start_point_method": "origin",
+      "run": "quick",
+      "additional_ns_gap": [
+        "rows",
+        30,
+        600.0
+      ],
+      "additional_ew_gap": [
+        "distance",
+        12000,
+        600.0
+      ],
+      "inverter_name": "SMA_SC_2500-EV-US",
+      "max_system_size": "",
+      "max_system_size_type": "kwdc",
+      "max_size_by_region": true,
+      "target_dcac_ratio": "",
+      "analyze_topo": false,
+      "placement_order": "x_first",
+      "avoid_slope_areas": false,
+      "spacing_by_max_size": false,
+      "parametric_inputs": {
+        "ns_gap": {
+          "min": 30.0,
+          "max": 50.0,
+          "step": 10,
+          "spacingType": "gcr",
+          "type": "range"
+        },
+        "azimuth": {
+          "min": 170,
+          "max": 190,
+          "step": 10,
+          "type": "range"
+        }
+      }
+    }
+  ]
+}
