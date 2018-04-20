@@ -7,14 +7,22 @@ https://go.parallel.works/u/settings/#key
 
 Replace APIKEY in runCloud.py with your API Key
 
-## Sample Inputs
-Replace test.kmz with a KMZ file that includes one or more closed polygons (representing SunDAT regions)
+## Workflows
+"sundat_runner_v1" - for single site design optimization
 
-Replace test.json with a SunDAT JSON script file
+"sundat_runner_v1_multi_kmz" - for multiple site prospecting and design optimization
+
+## Sample Inputs
+`test.kmz` - KMZ file that includes one or more closed polygons (representing SunDAT regions)
+
+`test.json` - SunDAT JSON script file
 
 ## Usage
-To run:
-`python runCloud.py`
+To run "sundat_runner_v1":
+`python sundat_ws.py`
+
+To run "sundat_runner_v1_multi_kmz":
+`python sundat_ws_multi_kmz.py`
 
 ## Additional Resources
 Parallel Works API Documentation can be found here:
