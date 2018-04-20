@@ -123,15 +123,15 @@ print("")
 
 
 # download any result file by using the /download endpoint
-print("Fetching example individual result file to out.png...")
-f = open('out.png','wb')
-f.write(c.download_jobfile(djid,"output/case_0/out.png"))
-f.close()
+#print("Fetching example individual result file to out.png...")
+#f = open('out.png','wb')
+#f.write(c.download_jobfile(djid,"output/case_0/out.png"))
+#f.close()
 
-print("Fetching example individual result file to out.skp...")
-f = open('out.skp','wb')
-f.write(c.download_jobfile(djid,"output/case_0/out.skp"))
-f.close()
+#print("Fetching example individual result file to out.skp...")
+#f = open('out.skp','wb')
+#f.write(c.download_jobfile(djid,"output/case_0/out.skp"))
+#f.close()
 
 
 # turn off the computing resources
