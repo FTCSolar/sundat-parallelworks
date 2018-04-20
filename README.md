@@ -1,3 +1,5 @@
+<img src="https://sundat.ftcsolar.com/portal/wp-content/uploads/2016/04/V3_Logo_Name.png" alt="SunDAT logo" height="70" >
+
 # SunDAT-ParallelWorks Web Service API
 Example code for accessing the SunDAT-ParallelWorks cloud computing web service
 
@@ -5,26 +7,28 @@ Example code for accessing the SunDAT-ParallelWorks cloud computing web service
 API Key can be accessed from your ParallelWorks Account at:
 https://go.parallel.works/u/settings/#key
 
-Replace APIKEY in `sundat_ws.py` with your API Key
+Replace APIKEY in [sundat_ws.py](sundat_ws.py) with your API Key
 
 ## Workflows
-"sundat_runner_v1" - for single site design optimization using a KMZ file and SunDAT JSON script
+#### sundat_runner_v1
+Single site design optimization using a KMZ file and SunDAT JSON script
 
-"sundat_runner_v1_multi_kmz" - for multiple site prospecting and design optimization using a collection of KMZ files and a SunDAT JSON script
+#### sundat_runner_v1_multi_kmz
+Multiple site prospecting and design optimization using a collection of KMZ files and a SunDAT JSON script
 
 ## Sample Inputs
-`test.kmz` - KMZ file that includes one or more closed polygons (representing SunDAT regions)
+[test.kmz](sample_inputs/test.kmz) - KMZ file that includes one or more closed polygons (representing SunDAT regions)
 
-`test.json` - SunDAT JSON script file
+[test.json](sample_inputs/test.json) - SunDAT JSON script file
 
-`test.zip` - ZIP file that includes a collection of KMZ files
+[test.zip](sample_inputs/test.zip) - ZIP file that includes a collection of KMZ files
 
 ## Usage
-To run "sundat_runner_v1":
-`python sundat_ws.py`
+#### sundat_runner_v1
+    python sundat_ws.py
 
-To run "sundat_runner_v1_multi_kmz":
-`python sundat_ws_multi_kmz.py`
+#### sundat_runner_v1_multi_kmz
+    python sundat_ws_multi_kmz.py
 
 ## Additional Resources
 Parallel Works API Documentation can be found here:
