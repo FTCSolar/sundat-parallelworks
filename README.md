@@ -5,7 +5,7 @@ Example code for accessing the SunDAT-ParallelWorks cloud computing web service
 API Key can be accessed from your ParallelWorks Account at:
 https://go.parallel.works/u/settings/#key
 
-Replace APIKEY in runCloud.py with your API Key
+Replace APIKEY in `sundat_ws.py` with your API Key
 
 ## Workflows
 "sundat_runner_v1" - for single site design optimization
