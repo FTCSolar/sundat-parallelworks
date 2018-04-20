@@ -17,6 +17,8 @@ Replace APIKEY in runCloud.py with your API Key
 
 `test.json` - SunDAT JSON script file
 
+`test.zip` - ZIP file that includes multiple KMZ files
+
 ## Usage
 To run "sundat_runner_v1":
 `python sundat_ws.py`
