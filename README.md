@@ -9,6 +9,8 @@ https://go.parallel.works/u/settings/#key
 
 Replace APIKEY in [sundat_ws.py](sundat_ws.py) with your API Key
 
+To learn about pricing and request an API Key, please contact sundat@ftcsolar.com
+
 ## Workflows
 #### sundat_runner_v1
 Single site design optimization using a KMZ file and SunDAT JSON script
