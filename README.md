@@ -15,6 +15,12 @@ To learn about pricing and request an API Key, please contact sundat@ftcsolar.co
 #### sundat_runner_v1
 Single site design optimization using a KMZ file and SunDAT JSON script
 
+#### sundat_runner_v1_coordinates
+Single site design optimization using SunDAT JSON script that includes coordinate data for regions and obstructions
+
+#### sundat_runner_v1_single_layout_coordinates
+Single layout service for a single site using SunDAT JSON script that includes coordinate data for regions and obstructions
+
 #### sundat_runner_v1_multi_kmz
 Multiple site prospecting and design optimization using a collection of KMZ files and a SunDAT JSON script
 
@@ -23,11 +29,21 @@ Multiple site prospecting and design optimization using a collection of KMZ file
 
 [test.json](sample_inputs/test.json) - SunDAT JSON script file
 
+[sample-long-lat.json](sample_inputs/sample-long-lat.json) - SunDAT JSON script file that includes coordinate data for regions and obstructions
+
+[sample-single-long-lat.json](sample_inputs/sample-single-long-lat.json) - SunDAT JSON script file that includes coordinate data for regions and obstructions (includes instructions for only one layout)
+
 [test.zip](sample_inputs/test.zip) - ZIP file that includes a collection of KMZ files
 
-## Usage
+## Usage/Examples
 #### sundat_runner_v1
     python sundat_ws.py
+
+#### sundat_runner_v1_coordinates
+    python sundat_ws_coordinates.py
+
+#### sundat_runner_v1_single_layout_coordinates
+    python sundat_ws_single_layout_coordinates.py
 
 #### sundat_runner_v1_multi_kmz
     python sundat_ws_multi_kmz.py
