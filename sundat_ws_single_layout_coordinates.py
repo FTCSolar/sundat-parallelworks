@@ -84,7 +84,6 @@ while True:
     laststatus=status
     
     if state == 'ok':
-        rid = c.get_result_id(jid,"htmlout")
         jsonid = c.get_result_id(jid,"jsonout")
         break
     elif (state == 'deleted' or state == 'error'):
