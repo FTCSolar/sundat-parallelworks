@@ -97,7 +97,7 @@ class Client():
 
     def download_jobfile(self, djid, path):
         url=self.url + "/download/"+ str(int(round(int(djid)/1000))).zfill(3) + "/" + djid + "/" + path +"?key=" + self.key
-        print url
+        print(url)
         req = self.session.get(url)
         req.raise_for_status()
         return req.content
